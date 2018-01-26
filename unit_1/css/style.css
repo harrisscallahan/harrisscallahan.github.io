@@ -2,6 +2,10 @@ body {
 	background-color: #f0f2f5;
 }
 
-h1, p {
+h1, h2 {
 	color: #2a90d4;
+}
+
+p {
+	color: black
 }
