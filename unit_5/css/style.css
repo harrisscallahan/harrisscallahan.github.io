@@ -1,0 +1,132 @@
+.banner {
+	background: url(../images/GoodOrderHeader.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	padding: 0px;
+	margin: 0px 0px;
+	}
+
+	.logo {
+		margin-left: 50px;
+		margin-top: 30px;
+		max-width: 200px;
+	}
+
+	.banner_title {
+		font-family: 'Montserrat', sans-serif;
+		color: #ffffff;
+		font-weight: 400;
+		position: relative;
+		font-size: 52px;
+		color: white;
+		margin-left: 50px;
+		padding-top: 150px;
+		padding-bottom: 0px;
+		margin-top: 0px;
+
+	}
+
+	.banner_text {
+		color: #ffffff;
+		font-weight: 100;
+		position: relative;
+		font-size: 24px;
+		margin-left: 50px;
+		padding-top: 0px;
+	}
+
+	.topnav {
+		color: #ffffff;
+		font-weight: 100;
+		float: right;
+		position: relative;
+		font-size: 16px;
+		margin-right: 50px;
+		padding-top: 30px;
+	}
+
+
+
+
+
+
+
+
+#group1 {
+  
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: #f0f2f5; 
+
+}
+.group1_text {
+    float: left;
+    display: inline-block;
+	word-break: break-word;
+
+}
+
+
+#image1 {
+	
+	width: 400px;
+	max-width: 40%;
+	min-width: 300px;
+	padding-left: 50px;
+	height: auto;
+
+}
+
+span {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+h2 {
+	color: #2a90d4;
+	margin-left: 50px;
+	font-weight: 100;
+	font-size: 28px;
+}
+
+p {
+	color: gray;
+	margin-left: 50px;
+	font-weight: lighter;
+	font-size: 18px;
+	line-height: 1.5em;
+	word-wrap: break-word;
+	max-width: 400px;
+}
+
+body {
+	background-color: #f0f2f5; 
+	margin:0;
+	padding:0;
+	font-family: roboto;
+	}
+
+a {
+	color: white;
+	font-weight: 400;
+	text-decoration: none;
+	padding-right: 30px;
+	}
+
+/* h1 {
+	font-size: 48px;
+	color: red;
+	font-weight: 200;
+	padding: 100px 100px;
+}
+*/
+
