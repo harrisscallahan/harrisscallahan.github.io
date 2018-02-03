@@ -1,11 +1,12 @@
-.banner {
+header {
 	background: url(../images/GoodOrderHeader.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 500px;
 	padding: 0px;
-	margin: 0px 0px;
+	margin: 0 -10px;
+	margin-top: -10px;
 	}
 
 	.logo {
@@ -45,51 +46,31 @@
 		font-size: 16px;
 		margin-right: 50px;
 		padding-top: 30px;
+		background-color: #E8C66A;
 	}
 
 
+#section1 {
 
-
-
-
-
-
-#group1 {
-  
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    background-color: #f0f2f5; 
+	width: 960px;
+	margin: 0 auto;
+	background: #FFE2B8;
+	overflow: hidden;
 
 }
-.group1_text {
-    float: left;
-    display: inline-block;
+
+.article1 {
+	width: 480px;
+	float: left;
+	display: inline-block;
 	word-break: break-word;
-
 }
-
 
 #image1 {
-	
 	width: 400px;
-	max-width: 40%;
-	min-width: 300px;
+	float: left;
 	padding-left: 50px;
-	height: auto;
-
 }
-
-span {
-	display: block;
-}
-
-
-
-
-
-
-
-
 
 h2 {
 	color: #2a90d4;
@@ -122,11 +103,6 @@ a {
 	padding-right: 30px;
 	}
 
-/* h1 {
-	font-size: 48px;
-	color: red;
-	font-weight: 200;
-	padding: 100px 100px;
-}
-*/
-
+	footer {
+		background-color: #FF957E;
+	}
