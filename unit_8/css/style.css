@@ -1,11 +1,11 @@
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 0px;
 	background-color: #f0f2f5; 
+	font-size: 16px;
 }
 
 nav {
-	font-family: Arial, sans-serif;
 	padding: 20px;
 }
 
@@ -54,33 +54,55 @@ header {
 #header_text {
 	width: 960px;
 	margin: 0 auto;
+	font-weight: 300;
 }
 
 h1 {
 	color: white;
-	font-size: 48px;
+	font-size: 3em;
 	padding-top: 50px;
 	padding-bottom: -20px;
 }
 
-#headertext {
-	font-size: 24px;
+h2 {
+	color: #2a90d4;
+	font-size: 1.5em;
 }
 
-main {
-	max-width: 960px;
-	margin: 0 auto;
+p {
+	color: gray;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+#headertext {
+	font-size: 1.5em;
+}
+
+
+#row1 {
+	background-color: #ffffff; 
+}
+
+#row2 {
+	background-color: #f0f2f5;
 }
 
 section {
 	width: 960px;
 	margin: 0 auto;
-
 }
 
 article {
-	background-color: #f0f2f5; 
-	width: 50%;
+	width: 44%;
+	padding: 0 3%;
+	float: left;
+}
+
+aside {
+	width: 44%;
+	padding: 0 3%;
+	float: left;
 }
 
 footer {
@@ -93,23 +115,12 @@ footer {
 }
 
 #two-column {
-	background-color: #f0f2f5; 
 	padding: 20px;
 }
 
-#left {
-	width: 50%;
-	float: left;
-}
-
-
-#right {
-	width: 50%;
-	float: left;
-}
 
 #image1 {
-	width: 80%;
+	width: 100%;
 }
 
 #border {
