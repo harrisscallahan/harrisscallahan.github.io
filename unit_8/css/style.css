@@ -24,7 +24,7 @@ a:hover {
 }
 
 #logo {
-	width: 250px;
+	width: 200px;
 	float: left;
 	padding-top: 25px;
 }
@@ -47,15 +47,17 @@ header {
 	background-repeat: no-repeat;
 	height: 500px;
 	color: white;
-	padding-left: 50px;
 	text-shadow: 2px 2px rgba(0,0,0,.5);
 }
 
 #header_text {
-	width: 960px;
+	width: 90%;
+	max-width: 960px;
+	padding-left: 50px;
 	margin: 0 auto;
-	font-weight: 300;
 }
+
+
 
 h1 {
 	color: white;
@@ -89,7 +91,8 @@ p {
 }
 
 section {
-	width: 960px;
+	width: 90%;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -126,4 +129,51 @@ footer {
 #border {
 	margin: 0;
 	border-bottom: 1px solid gray;
+}
+
+@media only screen and (max-width: 768px) {
+	article {
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+	aside {
+		float: center;
+		width: auto;
+		padding: 1em;
+	}
+	#header_text {
+		float: none;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	#header_text {
+		float: none;
+		margin: 0 auto;
+		padding-left: 1em;
+	}
+	#mainnav {
+		float: none;
+		margin: 0 auto;
+	}
+	#logo {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+	nav a {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	h1 {
+		padding: 0%;
+		margin: 0%;
+		text-align: center;
+	}
+	#headertext {
+		text-align: center;
+	}
 }
