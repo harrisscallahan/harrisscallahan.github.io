@@ -7,6 +7,8 @@ body {
 	margin: 0px;
 	background-color: #f0f2f5; 
 	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 nav {
@@ -25,12 +27,14 @@ a {
 
 a:hover {
 	border: 1px solid white;
+	background-color: rgba(10, 27, 38, .5);
 }
 
 #logo {
 	width: 200px;
 	float: left;
-	padding-top: 25px;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 .clearfix:after {
@@ -156,28 +160,42 @@ footer {
 	#header_text {
 		float: none;
 		margin: 0 auto;
-		padding-left: 1em;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
 	}
 	#mainnav {
 		float: none;
 		margin: 0 auto;
 	}
+	
 	#logo {
 		float: none;
-		display: block;
+		display: block; 
 		margin: 0 auto;
-	}
-	nav a {
+	} 
+
+
+	nav, a {
 		float: none;
 		margin: 0 auto;
 		text-align: center;
 	}
+	nav {
+		padding: 0;
+	}
+	a {
+		background-color: rgba(10, 27, 38, .5);
+	}
 	h1 {
-		padding: 0%;
+		padding: .5em, 0, 0, 0;
+		line-height: 1em;
 		margin: 0%;
 		text-align: center;
 	}
 	#headertext {
-		text-align: center;
+		line-height: 1.2em;
+		padding-top: .5em;
 	}
+
 }
