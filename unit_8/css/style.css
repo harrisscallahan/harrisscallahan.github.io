@@ -33,8 +33,8 @@ a:hover {
 #logo {
 	width: 200px;
 	float: left;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	padding-top: 1.75em;
+	padding-bottom: 0;
 }
 
 .clearfix:after {
@@ -61,7 +61,6 @@ header {
 #header_text {
 	width: 90%;
 	max-width: 960px;
-	padding-left: 50px;
 	margin: 0 auto;
 }
 
@@ -72,17 +71,20 @@ h1 {
 	font-size: 3em;
 	padding-top: 50px;
 	padding-bottom: -20px;
+	line-height: 1.5em;
 }
 
 h2 {
 	color: #2a90d4;
 	font-size: 1.5em;
+	font-weight: 400;
 }
 
 p {
 	color: gray;
 	font-size: 1.2em;
 	font-weight: 300;
+	line-height: 1.5em;
 }
 
 #headertext {
@@ -96,6 +98,7 @@ p {
 
 #row2 {
 	background-color: #f0f2f5;
+	padding: 3em;
 }
 
 section {
@@ -104,16 +107,52 @@ section {
 	margin: 0 auto;
 }
 
-article {
-	width: 44%;
-	padding: 0 3%;
+
+/* article {
+	width: 50%;
+	padding: 2% 0%;
 	float: left;
 }
 
 aside {
-	width: 44%;
-	padding: 0 3%;
+	width: 50%;
+	padding: 2% 0%;
 	float: left;
+}
+*/
+
+#article_center {
+	padding: 3em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#article_left {
+	width: 46%;
+	padding: 2% 0%;
+	padding-right: 4%;
+	float: left;
+
+}
+
+#aside_right {
+	width: 50%;
+	padding: 2% 0%;
+	float: left;
+}
+
+#article_right {
+	width: 48%;
+	padding: 2% 0;
+	padding-right: 2%;
+	float: left;
+}
+
+#aside_left {
+	width: 48%;
+	padding: 2% 0%;
+	float: left;
+	padding-left: 2%;
 }
 
 footer {
@@ -126,7 +165,7 @@ footer {
 }
 
 #two-column {
-	padding: 20px;
+	padding: 0%;
 }
 
 
@@ -140,6 +179,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
 	article {
 		float: none;
 		width: auto;
@@ -150,6 +190,34 @@ footer {
 		width: auto;
 		padding: 1em;
 	}
+
+#article_left {
+	float: none;
+	width: auto;
+	text-align: center;
+
+}
+
+#aside_right {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+#article_right {
+	float: none;
+	width: auto;
+	text-align: center;
+}
+
+#aside_left {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+
+
 	#header_text {
 		float: none;
 		width: auto;
@@ -173,6 +241,7 @@ footer {
 		float: none;
 		display: block; 
 		margin: 0 auto;
+		padding-bottom: 1em;
 	} 
 
 
