@@ -25,9 +25,31 @@ a {
 	border: 1px solid transparent;
 }
 
+#button_link {
+	float: none;
+	background: none;
+}
+
 a:hover {
 	border: 1px solid white;
 	background-color: rgba(10, 27, 38, .5);
+}
+
+.button {
+	background-color: #23c3ee;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+ 	border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button1 {
 }
 
 #logo {
@@ -142,7 +164,6 @@ aside {
 
 #article_left_center {
 	width: 46%;
-	padding: 2% 0%;
 	padding-right: 4%;
 	float: left;
 	text-align: center;
@@ -150,7 +171,6 @@ aside {
 
 #article_right_center {
 	width: 46%;
-	padding: 2% 0%;
 	padding-right: 4%;
 	float: left;
 	text-align: center;
@@ -179,11 +199,12 @@ aside {
 
 footer {
 	text-align: center;
-	color: white;
+	color: #d3d3d3;
 	background-color: #242424;
 	height: auto;
 	padding-top: 30px;
 	clear: both;
+	padding-bottom: 5%;
 }
 
 #two-column {
@@ -233,6 +254,18 @@ footer {
 }
 
 #aside_left {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+#article_left_center {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+#article_right_center {
 	float: none;
 	width: auto;
 	padding: 1em;
