@@ -1,0 +1,329 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	background-color: #f0f2f5; 
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+	padding: 20px;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	float: right;
+	padding: 10px;
+	border: 1px solid transparent;
+}
+
+#button_link {
+	float: none;
+	background: none;
+}
+
+a:hover {
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: rgba(10, 27, 38, .5);
+}
+
+.button {
+	background-color: #23c3ee;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+ 	border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button1 {
+}
+
+#logo {
+	width: 200px;
+	float: left;
+	padding-top: 1.75em;
+	padding-bottom: 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+
+header {
+	background: url(../images/GoodOrderHeader.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	color: white;
+	text-shadow: 2px 2px rgba(0,0,0,.5);
+}
+
+#header_text {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+
+h1 {
+	color: white;
+	font-size: 3em;
+	padding-top: 50px;
+	padding-bottom: -20px;
+	line-height: 1.5em;
+}
+
+h2 {
+	color: #2a90d4;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+p {
+	color: gray;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+#headertext {
+	font-size: 1.5em;
+}
+
+
+#row1 {
+	background-color: #ffffff; 
+}
+
+#row2 {
+	background-color: #f0f2f5;
+	padding: 3em;
+}
+
+#row3 {
+	background-color: #ffffff;
+	padding: 3em;
+}
+
+section {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+/* article {
+	width: 50%;
+	padding: 2% 0%;
+	float: left;
+}
+
+aside {
+	width: 50%;
+	padding: 2% 0%;
+	float: left;
+}
+*/
+
+#article_center {
+	padding: 3em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#article_left {
+	width: 46%;
+	padding: 2% 0%;
+	padding-right: 4%;
+	float: left;
+
+}
+
+#article_left_center {
+	width: 46%;
+	padding-right: 4%;
+	float: left;
+	text-align: center;
+}
+
+#article_right_center {
+	width: 46%;
+	padding-right: 4%;
+	float: left;
+	text-align: center;
+}
+
+#aside_right {
+	width: 50%;
+	padding: 2% 0%;
+	float: left;
+}
+
+#article_right {
+	width: 48%;
+	padding: 5% 0;
+	padding-right: 2%;
+	float: left;
+}
+
+#aside_left {
+	width: 50%;
+	padding: 0% 0%;
+	float: left;
+	padding-left: 0%;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	color: #d3d3d3;
+	background-color: #242424;
+	height: auto;
+	padding-top: 30px;
+	clear: both;
+	padding-bottom: 5%;
+}
+
+#two-column {
+	padding: 0%;
+}
+
+
+#image1 {
+	width: 100%;
+}
+
+#border {
+	margin: 0;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+@media only screen and (max-width: 768px) {
+
+	article {
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+	aside {
+		float: center;
+		width: auto;
+		padding: 1em;
+	}
+
+#article_left {
+	float: none;
+	width: auto;
+	text-align: center;
+
+}
+
+#aside_right {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+#article_right {
+	float: none;
+	width: auto;
+	text-align: center;
+}
+
+#aside_left {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+#article_left_center {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+#article_right_center {
+	float: none;
+	width: auto;
+	padding: 1em;
+}
+
+
+
+	#header_text {
+		float: none;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	#header_text {
+		float: none;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	#mainnav {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	#logo {
+		float: none;
+		display: block; 
+		margin: 0 auto;
+		padding-bottom: 1em;
+	} 
+
+
+	nav, a {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	nav {
+		padding: 0;
+	}
+	a {
+		background-color: rgba(10, 27, 38, .5);
+	}
+	h1 {
+		padding: .5em, 0, 0, 0;
+		line-height: 1em;
+		margin: 0%;
+		text-align: center;
+	}
+	#headertext {
+		line-height: 1.2em;
+		padding-top: .5em;
+	}
+	#image1 {
+	width: 100%;
+}
+
+}
